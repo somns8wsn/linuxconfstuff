@@ -26,9 +26,6 @@ l12
 r2
 
 # Left window history (oldest to newest):
-d/home/ws/owndmenubuild
-	arg.h
-1
 d/home/ws
 	owndwmbuild
 17
@@ -54,8 +51,11 @@ d/home/ws/owndwmbuild
 	..
 0
 d/home/ws
-	owndwmbuild
-17
+	.git
+7
+d/home/ws/.git
+	index
+11
 d
 
 # Right window history (oldest to newest):
