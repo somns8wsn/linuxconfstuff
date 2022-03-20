@@ -21,7 +21,6 @@ ownconfstuff/**
 !owndwmbuild/**
 !owndmenubuild/**
 !background/**
-!.vim/**
 !.moc/**
 !.config/cataclysm-dda/**
 !.config/htop/**
