@@ -26,36 +26,36 @@ l12
 r2
 
 # Left window history (oldest to newest):
-d/home/ws
-	Downloads
-8
-d/home/ws/Downloads
-	owndmenubuild
-1
-d/home/ws/Downloads/owndmenubuild
-	..
-0
-d/home/ws/Downloads
-	owndmenubuild
-1
-d/home/ws/Downloads/owndmenubuild
-	..
-0
-d/home/ws/Downloads
-	ownstbuild
-4
-d/home/ws
-	DiplomGame
-7
 d/home/ws/DiplomGame
+	Scenes
+2
+d/home/ws/DiplomGame/Scenes
 	..
 0
+d/home/ws/DiplomGame
+	Scripts
+3
+d/home/ws/DiplomGame/Scripts
+	..
+0
+d/home/ws/DiplomGame
+	Sprites
+4
+d/home/ws/DiplomGame/Sprites
+	..
+0
+d/home/ws/DiplomGame
+	.gitignore
+7
 d/home/ws
-	Downloads
-8
-d/home/ws/Downloads
-	..
-0
+	godot_projects
+9
+d/home/ws/godot_projects
+	SpaceShip
+5
+d/home/ws/godot_projects/SpaceShip
+	.gitignore
+9
 d
 
 # Right window history (oldest to newest):
@@ -1428,7 +1428,7 @@ t/home/ws/.local/share/vifm/Trash/000_ownstbuild-main.zip
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1
