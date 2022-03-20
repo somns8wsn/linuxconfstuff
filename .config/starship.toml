@@ -1,0 +1,9 @@
+# Wait 10 miliseconds for starship to check files under the current directory.
+scan_timeout = 10
+
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+[directory]
+truncation_length = 999
+truncate_to_repo = false

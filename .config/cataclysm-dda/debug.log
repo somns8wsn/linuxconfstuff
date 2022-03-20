@@ -1,0 +1,19 @@
+
+
+-----------------------------------------
+20:39:37.147 : Starting log.
+20:39:37.148 INFO : Cataclysm DDA version 0.E-3
+20:39:38.180 WARNING : opendir [/home/ws/.local/share/cataclysm-dda/mods/] failed with "Нет такого файла или каталога".
+20:40:08.553 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+20:41:12.165 : Starting log.
+20:41:12.165 INFO : Cataclysm DDA version 0.E-3
+20:41:12.518 WARNING : opendir [/home/ws/.local/share/cataclysm-dda/mods/] failed with "Нет такого файла или каталога".
+20:42:01.182 WARNING : opendir [/home/ws/.local/share/cataclysm-dda/save/test_world/mods] failed with "Нет такого файла или каталога".
+21:19:14.595 : Log shutdown.
+-----------------------------------------
+

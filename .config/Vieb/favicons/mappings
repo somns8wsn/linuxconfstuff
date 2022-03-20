@@ -1,0 +1,22 @@
+{
+    "https://duckduckgo.com/": "https://duckduckgo.com/favicon.ico",
+    "https://duckduckgo.com/?q=vim+logo&t=h_&iax=images&ia=images&iai=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fvim-logo-png-transparent.png": "https://duckduckgo.com/favicon.ico",
+    "https://duckduckgo.com/?kae=d&kav=1&ko=1&q=%3Aq&ia=web": "https://duckduckgo.com/favicon.ico",
+    "https://duckduckgo.com/?kae=d&kav=1&ko=1&q=youtube&ia=web": "https://duckduckgo.com/favicon.ico",
+    "https://www.youtube.com/": "https://www.youtube.com/s/desktop/21ad9f7d/img/favicon.ico",
+    "https://www.youtube.com/results?search_query=chill+radio": "https://www.youtube.com/s/desktop/21ad9f7d/img/favicon.ico",
+    "https://www.youtube.com/watch?v=oVi5gtzTDx0": "https://www.youtube.com/s/desktop/21ad9f7d/img/favicon.ico",
+    "https://www.youtube.com/watch?v=-5KAN9_CzSA": "https://www.youtube.com/s/desktop/21ad9f7d/img/favicon.ico",
+    "https://www.youtube.com/results?search_query=chill+radio+synthwave": "https://www.youtube.com/s/desktop/21ad9f7d/img/favicon.ico",
+    "https://www.youtube.com/watch?v=xxgxkjV70Vc": "https://www.youtube.com/s/desktop/21ad9f7d/img/favicon.ico",
+    "https://duckduckgo.com/?kae=d&kav=1&ko=1&q=color+palette&ia=web": "https://duckduckgo.com/favicon.ico",
+    "https://duckduckgo.com/?q=html+color+wheel&kae=d&kav=1&ko=1&ia=web": "https://duckduckgo.com/favicon.ico",
+    "https://htmlcolors.com/color-wheel": "https://htmlcolors.com/favicon.ico",
+    "https://get-color.ru/": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAE5JREFUOE9jZICALAYGhjQGBgZ9KJ8QdZGBgWEWAwPDNEao5qmEdOCQzwYZcIEEm9HNuQgy4D+ZtoO1jRowGgZUSwcUJ2VQTqQoM1GUnQGodxZ7M/TDnwAAAABJRU5ErkJggg==",
+    "https://get-color.ru/#!1E1E1E": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAF9JREFUOE9jZGBgYJCVlc1iYGBIY2Rk1AfxCYH///9fZGBgmPX48eNpjCDNjIyMUwlpwib/////bJABF4i1Gd0QkEsY5eTk/pNjO0zPqAEMDKNhQI0woDgpU5yZKM3OAH0eM1sNXQ3qAAAAAElFTkSuQmCC",
+    "https://get-color.ru/#!676767": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAFRJREFUOE9jZGBgYEhPT89iYGBIY2Bg0AfxiQAXGRgYZs2cOXMaI1TzVCI0YVOSDTLgAgk2oxtyEWTAfzJtB2sbNWA0DKiWDihOyqCcSH5mojQ7AwAIHS1hKLmj2gAAAABJRU5ErkJggg==",
+    "https://get-color.ru/#!9E543F": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAGpJREFUOE9jZGBgYJgTYp/FxMiQxvCfQR/EJwgYGS7++88wK2XNwWmMYM0MDFMJasKi4B8DQzbjvFD7C0TbjG4II8NFxnkh9v/JsR2mZ9QABobRMKBKGFCalOeH2Gf9pyQzgdI02BAyszMAUnY5Jysu+5oAAAAASUVORK5CYII=",
+    "https://get-color.ru/#!919E6C": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAGRJREFUOE9jZGBgYJgwJyeLkYkhjYGBQR/EJwJc/P+PYVZBypRpjFDNU4nQhKHk/z+GbMaJ83IukGAzuiEXQQb8J8d2mJ5RAxgYRsOASmFAWVKeMD8ni/E/A/mZCZydIYaQlZ0BRng878cAO0gAAAAASUVORK5CYII=",
+    "https://get-color.ru/#!191919": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAFhJREFUOE9jZGBgYJCQkMhiZGRMY2Bg0AfxiQAX////P+vFixfTGKGapxKhCUPJ////sxklJSUvkGAzuiEXQQb8J8d2mJ5RAxgYRsOASmFAWVKmODNRmp0BJv0sj7jhjM4AAAAASUVORK5CYII=",
+    "https://get-color.ru/#!BFBFBF": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAFlJREFUOE9jZGBgYNi3b18WIyNjGgMDgz6ITwS4+P///1lOTk7TGKGapxKhCUPJ////sxn3799/gQSb0Q25CDLgPzm2w/SMGsDAMBoGVAoDypIyxZmJ0uwMAJTYR8tEhdwyAAAAAElFTkSuQmCC"
+}
