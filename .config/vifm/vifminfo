@@ -26,21 +26,6 @@ l12
 r2
 
 # Left window history (oldest to newest):
-d/home/ws
-	owndwmbuild
-17
-d/home/ws/owndwmbuild
-	util.c
-32
-d/home/ws
-	ownslstatusbuild
-18
-d/home/ws/ownslstatusbuild
-	components
-1
-d/home/ws
-	ownstbuild
-19
 d/home/ws/ownstbuild
 	arg.h
 1
@@ -55,6 +40,21 @@ d/home/ws
 7
 d/home/ws/.git
 	index
+11
+d/home/ws
+	ownconfstuff
+18
+d/home/ws/ownconfstuff
+	.profile
+5
+d/home/ws
+	Downloads
+11
+d/home/ws/Downloads
+	..
+0
+d/home/ws
+	Downloads
 11
 d
 
@@ -130,7 +130,11 @@ palready_using_plugins
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/ws/.local/share/vifm/Trash/004_.git
+""/home/ws/.local/share/vifm/Trash/000_ownconfstuff
+""/home/ws/.local/share/vifm/Trash/000_owndmenubuild
+""/home/ws/.local/share/vifm/Trash/000_owndwmbuild
+""/home/ws/.local/share/vifm/Trash/000_ownslstatusbuild
+""/home/ws/.local/share/vifm/Trash/000_ownstbuild
 
 # Directory stack (oldest to newest):
 
@@ -1403,6 +1407,16 @@ t/home/ws/.local/share/vifm/Trash/003_.git
 	/home/ws/ownslstatusbuild/.git
 t/home/ws/.local/share/vifm/Trash/004_.git
 	/home/ws/ownstbuild/.git
+t/home/ws/.local/share/vifm/Trash/000_ownconfstuff
+	/home/ws/ownconfstuff
+t/home/ws/.local/share/vifm/Trash/000_owndmenubuild
+	/home/ws/owndmenubuild
+t/home/ws/.local/share/vifm/Trash/000_owndwmbuild
+	/home/ws/owndwmbuild
+t/home/ws/.local/share/vifm/Trash/000_ownslstatusbuild
+	/home/ws/ownslstatusbuild
+t/home/ws/.local/share/vifm/Trash/000_ownstbuild
+	/home/ws/ownstbuild
 
 # State:
 f
