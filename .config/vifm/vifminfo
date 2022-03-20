@@ -26,36 +26,36 @@ l12
 r2
 
 # Left window history (oldest to newest):
-d/home/ws/ownstbuild
-	arg.h
-1
 d/home/ws
-	owndwmbuild
-17
-d/home/ws/owndwmbuild
+	Downloads
+8
+d/home/ws/Downloads
+	owndmenubuild
+1
+d/home/ws/Downloads/owndmenubuild
+	..
+0
+d/home/ws/Downloads
+	owndmenubuild
+1
+d/home/ws/Downloads/owndmenubuild
+	..
+0
+d/home/ws/Downloads
+	ownstbuild
+4
+d/home/ws
+	DiplomGame
+7
+d/home/ws/DiplomGame
 	..
 0
 d/home/ws
-	.git
-7
-d/home/ws/.git
-	index
-11
-d/home/ws
-	ownconfstuff
-18
-d/home/ws/ownconfstuff
-	.profile
-5
-d/home/ws
 	Downloads
-11
+8
 d/home/ws/Downloads
 	..
 0
-d/home/ws
-	Downloads
-11
 d
 
 # Right window history (oldest to newest):
@@ -112,29 +112,28 @@ D
 /Twe
 /f
 /rofi
-/Dow
 /kitty
+/Dow
 
 # Prompt history (oldest to newest):
-prelease_notes.txt
-pcommand_line.txt
-p№9.pdf
-p№10.pdf
 p№11.pdf
 p№12.pdf
 pDwarf_Fortress
 psetup_factorio_1.1.53_(53052).exe
 pkitty.conf.defaul_colours
 palready_using_plugins
+powndmenubuild
+powndwmbuild
+pownslstatusbuild
+pownstbuild
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/ws/.local/share/vifm/Trash/000_ownconfstuff
-""/home/ws/.local/share/vifm/Trash/000_owndmenubuild
-""/home/ws/.local/share/vifm/Trash/000_owndwmbuild
-""/home/ws/.local/share/vifm/Trash/000_ownslstatusbuild
-""/home/ws/.local/share/vifm/Trash/000_ownstbuild
+""/home/ws/.local/share/vifm/Trash/000_owndmenubuild-main.zip
+""/home/ws/.local/share/vifm/Trash/000_owndwmbuild-main.zip
+""/home/ws/.local/share/vifm/Trash/000_ownslstatusbuild-main.zip
+""/home/ws/.local/share/vifm/Trash/000_ownstbuild-main.zip
 
 # Directory stack (oldest to newest):
 
@@ -1417,11 +1416,19 @@ t/home/ws/.local/share/vifm/Trash/000_ownslstatusbuild
 	/home/ws/ownslstatusbuild
 t/home/ws/.local/share/vifm/Trash/000_ownstbuild
 	/home/ws/ownstbuild
+t/home/ws/.local/share/vifm/Trash/000_owndmenubuild-main.zip
+	/home/ws/Downloads/owndmenubuild-main.zip
+t/home/ws/.local/share/vifm/Trash/000_owndwmbuild-main.zip
+	/home/ws/Downloads/owndwmbuild-main.zip
+t/home/ws/.local/share/vifm/Trash/000_ownslstatusbuild-main.zip
+	/home/ws/Downloads/ownslstatusbuild-main.zip
+t/home/ws/.local/share/vifm/Trash/000_ownstbuild-main.zip
+	/home/ws/Downloads/ownstbuild-main.zip
 
 # State:
 f
 i1
-[.0
+[.1
 [F
 F
 I1
