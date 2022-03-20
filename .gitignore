@@ -1,18 +1,20 @@
 *
 !*/
-!./.gitignore
+!.gitignore
 
-DiplomGame/
-ownconfstuff/
+DiplomGame/**
+ownconfstuff/**
+.var/**
+.local/**
 
-!./ownpkglist.txt
-!./.xinitrc
-!./.xresources
-!./.profile
-!./.bashrc
-!./.mouse_settings.sh
-!./afterinstallscript
-!./helpful_libs.txt
+!ownpkglist.txt
+!.xinitrc
+!.xresources
+!.profile
+!.bashrc
+!.mouse_settings.sh
+!afterinstallscript
+!helpful_libs.txt
 
 !ownstbuild/**
 !ownslstatusbuild/**
