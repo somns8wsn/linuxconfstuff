@@ -22,7 +22,7 @@
 !.config/neofetch/**
 !.config/pcmanfm/**
 !.config/Vieb/**
-!.config/vifm/**
+!.config/vifm/vifmrc
 !.config/vlc/**
 !.config/xnviewmp/**
 !.config/.vimrc
