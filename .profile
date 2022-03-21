@@ -28,3 +28,4 @@ fi
 export PATH="$PATH:/opt/Telegram"
 export PATH="$PATH:/opt/Discord"
 export QT_QPA_PLATFORMTHEME="qt5ct"
+. "$HOME/.cargo/env"
