@@ -1,5 +1,8 @@
 " When started as "evim", evim.vim will already have done these settings, bail
 " out.
+
+execute pathogen#infect()
+
 if v:progname =~? "evim"
   finish
 endif

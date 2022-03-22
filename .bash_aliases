@@ -1,0 +1,6 @@
+alias ll='exa -l --color=always --group-directories-first'
+alias lla='exa -la --color=always --group-directories-first'
+alias v='vim'
+alias s='startx'
+alias fm='vifm'
+alias pushgit='git add . && git commit -m "1" && git push origin'

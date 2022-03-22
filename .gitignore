@@ -9,6 +9,7 @@
 !.mouse_settings.sh
 !afterinstallscript
 !helpful_libs.txt
+!.bash_aliases
 
 !ownstbuild/**
 !ownslstatusbuild/**
