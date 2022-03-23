@@ -10,6 +10,7 @@
 !afterinstallscript
 !helpful_libs.txt
 !.bash_aliases
+!.vimrc
 
 !ownstbuild/**
 !ownslstatusbuild/**
@@ -17,6 +18,7 @@
 !owndmenubuild/**
 !background/**
 !.moc/**
+!.vim/**
 !.config/cataclysm-dda/**
 !.config/htop/**
 !.config/kitty/**
@@ -26,6 +28,5 @@
 !.config/vifm/vifmrc
 !.config/vlc/**
 !.config/xnviewmp/**
-!.config/.vimrc
 !.config/krita*
 !.config/starship.toml
