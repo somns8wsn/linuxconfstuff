@@ -1,1 +1,0 @@
-{"net":{"http_server_properties":{"servers":[{"isolation":[],"server":"https://redirector.gvt1.com","supports_spdy":true},{"isolation":[],"network_stats":{"srtt":24299},"server":"https://r2---sn-gvnuxaxjvh-31ol.gvt1.com"}],"supports_quic":{"address":"192.168.1.108","used_quic":true},"version":5},"network_qualities":{"CAESABiAgICA+P////8B":"4G"}}}
