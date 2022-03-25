@@ -26,8 +26,9 @@ augroup MyColors
     autocmd!
     autocmd ColorScheme * call MyHighlights()
 augroup END
-colorscheme gruvbox
 
+set relativenumber
+colorscheme gruvbox
 syntax on
 set background=dark
 
