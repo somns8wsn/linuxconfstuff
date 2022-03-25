@@ -24,7 +24,6 @@
 !.config/kitty/**
 !.config/neofetch/**
 !.config/pcmanfm/**
-!.config/Vieb/**
 !.config/vifm/vifmrc
 !.config/vlc/**
 !.config/xnviewmp/**
