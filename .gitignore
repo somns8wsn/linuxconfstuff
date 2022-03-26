@@ -17,7 +17,7 @@
 !owndwmbuild/**
 !owndmenubuild/**
 !background/**
-!.moc/**
+!.moc/config
 !.vim/**
 !.config/cataclysm-dda/**
 !.config/htop/**
@@ -26,6 +26,7 @@
 !.config/pcmanfm/**
 !.config/vifm/vifmrc
 !.config/vlc/**
+!.config/GIMP/**
 !.config/xnviewmp/**
 !.config/krita*
 !.config/starship.toml

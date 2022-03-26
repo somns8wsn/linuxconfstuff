@@ -1,0 +1,51 @@
+# settings
+
+(GimpBrightnessContrastConfig "2022-02-12 19:55:34"
+    (time 1644684934)
+    (brightness 1)
+    (contrast 1))
+(GimpBrightnessContrastConfig "2022-02-12 17:28:37"
+    (time 1644676117)
+    (gimp-mode luminance)
+    (brightness 0.23622047244094488)
+    (contrast 0.40944881889763779))
+(GimpBrightnessContrastConfig "2022-02-10 22:48:53"
+    (time 1644522533)
+    (brightness 0.19685039370078741)
+    (contrast 0.46456692913385828))
+(GimpBrightnessContrastConfig "2022-02-10 22:40:46"
+    (time 1644522046)
+    (brightness 0.59055118110236215)
+    (contrast 0.33070866141732286))
+(GimpBrightnessContrastConfig "2022-02-10 22:34:40"
+    (time 1644521680)
+    (gimp-mode luminance)
+    (gimp-opacity 0.01)
+    (brightness 0.3543307086614173)
+    (contrast 0.94488188976377951))
+(GimpBrightnessContrastConfig "2022-02-10 22:32:42"
+    (time 1644521562)
+    (brightness 0.65354330708661412)
+    (contrast 0.42519685039370081))
+(GimpBrightnessContrastConfig "2022-02-10 22:19:30"
+    (time 1644520770)
+    (gimp-mode luminance)
+    (brightness 0.086614173228346455)
+    (contrast 1))
+(GimpBrightnessContrastConfig "2022-02-10 22:17:49"
+    (time 1644520669)
+    (gimp-mode luminance)
+    (brightness -0.31496062992125984)
+    (contrast 1))
+(GimpBrightnessContrastConfig "2022-02-10 22:15:12"
+    (time 1644520512)
+    (gimp-mode luminance)
+    (brightness 0.54330708661417326)
+    (contrast 0.96850393700787396))
+(GimpBrightnessContrastConfig "2022-02-10 22:04:52"
+    (time 1644519892)
+    (gimp-mode luminance)
+    (brightness 0.52755905511811019)
+    (contrast 1))
+
+# end of settings

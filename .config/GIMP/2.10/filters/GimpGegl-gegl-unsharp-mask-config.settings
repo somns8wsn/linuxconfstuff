@@ -1,0 +1,44 @@
+# settings
+
+(GimpGegl-gegl-unsharp-mask-config "2022-02-12 17:27:40"
+    (time 1644676060)
+    (std-dev 40.988999999999997)
+    (scale 0.5)
+    (threshold 0))
+(GimpGegl-gegl-unsharp-mask-config "2022-02-10 22:37:01"
+    (time 1644521821)
+    (std-dev 38.424999999999997)
+    (scale 4.0860000000000003)
+    (threshold 0))
+(GimpGegl-gegl-unsharp-mask-config "2022-02-10 22:00:31"
+    (time 1644519631)
+    (std-dev 8.8019999999999996)
+    (scale 1.3740000000000001)
+    (threshold 0.36399999999999999))
+(GimpGegl-gegl-unsharp-mask-config "2022-02-10 21:59:23"
+    (time 1644519563)
+    (std-dev 37.494)
+    (scale 1.0880000000000001)
+    (threshold 0))
+(GimpGegl-gegl-unsharp-mask-config "2022-02-10 21:45:06"
+    (time 1644518706)
+    (std-dev 11.611000000000001)
+    (scale 1.5700000000000001)
+    (threshold 0.033000000000000002))
+(GimpGegl-gegl-unsharp-mask-config "2022-01-14 22:26:20"
+    (time 1642188380)
+    (std-dev 3)
+    (scale 0.5)
+    (threshold 0))
+(GimpGegl-gegl-unsharp-mask-config "2022-01-14 22:25:24"
+    (time 1642188324)
+    (std-dev 9.9269999999999996)
+    (scale 0.56000000000000005)
+    (threshold 0))
+(GimpGegl-gegl-unsharp-mask-config "2022-01-14 21:40:36"
+    (time 1642185636)
+    (std-dev 0.91000000000000003)
+    (scale 3.6379999999999999)
+    (threshold 0.114))
+
+# end of settings
