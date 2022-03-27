@@ -31,4 +31,6 @@ set relativenumber
 colorscheme gruvbox
 syntax on
 set background=dark
-
+let NERDTreeShowHidden=1
+let g:indentLine_char = '│'
+let g:indentLine_color_term = 237
