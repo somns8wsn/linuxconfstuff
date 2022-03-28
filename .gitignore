@@ -19,6 +19,7 @@
 !background/**
 !.moc/config
 !.vim/**
+!.config/rofi/**
 !.config/cataclysm-dda/**
 !.config/htop/**
 !.config/kitty/**

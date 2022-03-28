@@ -6,4 +6,4 @@ nitrogen --restore &
 bash ~/.mouse_settings.sh
 kitty &
 slstatus &
-exec dwm 
+exec dwm
