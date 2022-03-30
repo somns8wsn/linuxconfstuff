@@ -17,3 +17,13 @@
 21:19:14.595 : Log shutdown.
 -----------------------------------------
 
+
+
+-----------------------------------------
+23:07:31.559 : Starting log.
+23:07:31.564 INFO : Cataclysm DDA version 0.E-3
+23:07:32.482 WARNING : opendir [/home/ws/.local/share/cataclysm-dda/mods/] failed with "Нет такого файла или каталога".
+23:10:31.983 WARNING : opendir [/home/ws/.local/share/cataclysm-dda/save/Вампс/mods] failed with "Нет такого файла или каталога".
+01:36:52.943 : Log shutdown.
+-----------------------------------------
+

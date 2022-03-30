@@ -2,13 +2,13 @@ AlsoSaveAsKra=false
 AntialiasSelectionOutline=false
 ArtColorSel.ColorSpace=0
 ArtColorSel.InversedSaturation=false
-ArtColorSel.Light=0.1891729465530836
+ArtColorSel.Light=0
 ArtColorSel.LightPieces=11
 ArtColorSel.NumRings=7
 ArtColorSel.RingPieces=12
-ArtColorSel.SelColorH=0.3333333333333333
-ArtColorSel.SelColorS=0.05828880674324726
-ArtColorSel.SelColorX=0.1891729465530836
+ArtColorSel.SelColorH=0
+ArtColorSel.SelColorS=0
+ArtColorSel.SelColorX=0
 ArtColorSel.defaultHueSteps=12
 ArtColorSel.defaultSaturationSteps=7
 ArtColorSel.defaultValueScaleSteps=11
@@ -46,9 +46,9 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="1" g="1" b="1"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0.168627455830574" g="0.176470592617989" b="0.168627455830574"/>\n</LastForeGroundColor>\n
-LastPreset=u)_Pixel_Art
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB g="1" space="sRGB-elle-V2-srgbtrc.icc" r="1" b="1"/>\n</LastBackGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB g="0" space="sRGB-elle-V2-srgbtrc.icc" r="0" b="0"/>\n</LastForeGroundColor>\n
+LastPreset=b)_Basic-1
 LineSmoothingDelayDistance=50
 LineSmoothingDistance=69.6
 LineSmoothingFinishStabilizedCurve=true
@@ -141,9 +141,9 @@ hideScrollbarsFullScreen=true
 hideStatusbarFullScreen=true
 hideTitleBarFullscreen=true
 hideToolbarFullscreen=true
-imageHeightDef=128
+imageHeightDef=1024
 imageResolutionDef=100
-imageWidthDef=128
+imageWidthDef=1024
 imageoffsetdlg_xoffsetunit=px
 imageoffsetdlg_yoffsetunit=px
 imagesizedlg_imsizeunit=px
@@ -227,7 +227,7 @@ pasteBehaviour=2
 pixelGridColor=255,255,255
 pixelGridDrawingThreshold=24
 pixelGridEnabled=false
-presethistory=v)_Sketching-1_Chrome_Thin,v)_Sketching-3_Leaky,b)_Basic-5_Size_Opacity,u)_Pixel_Art_Dithering,u)_Pixel_Art,b)_Basic-1,b)_Airbrush_Soft,b)_Basic-5_Size,y)_Screentone_Pressure,u)_Pixel_Art_Fill
+presethistory=v)_Sketching-3_Leaky,b)_Basic-5_Size_Opacity,u)_Pixel_Art_Dithering,u)_Pixel_Art,b)_Basic-1,b)_Airbrush_Soft,b)_Basic-5_Size,y)_Screentone_Pressure,u)_Pixel_Art_Fill,a)_Eraser_Soft
 renderIntent=0
 saveSessionOnQuit=true
 scratchpadVisible=true
@@ -673,7 +673,7 @@ Name8[$e]=photo_2021-08-18_12-18-12.jpg
 Name9[$e]=photo_2021-09-13_17-59-14.jpg
 
 [SelectedTags]
-kis_paintoppresets=Pixel Art
+kis_paintoppresets=All
 
 [Shortcut Schemes]
 Current Scheme=photoshop_compatible
