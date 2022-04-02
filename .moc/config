@@ -71,7 +71,7 @@
 #
 # Example:    MusicDir = "/home/joe/music"
 #
-MusicDir = /home/ws/Audio
+MusicDir = /home/ws/audio
 
 # Start in the music directory by default?  If set to 'no', start
 # in the directory being viewed when the was client last active or,
