@@ -652,12 +652,12 @@ xPosition=0
 yPosition=19
 
 [RecentFiles]
-File1[$e]=$HOME/pics/DiplomProject/Bench.kra
-File2[$e]=$HOME/pics/DiplomProject/stone_bin.kra
-File3[$e]=$HOME/pics/DiplomProject/animated_birds.kra
-Name1[$e]=Bench.kra
-Name2[$e]=stone_bin.kra
-Name3[$e]=animated_birds.kra
+File1[$e]=$HOME/pics/DiplomProject/stone_bin.kra
+File2[$e]=$HOME/pics/DiplomProject/animated_birds.kra
+File3[$e]=$HOME/pics/DiplomProject/Bench.kra
+Name1[$e]=stone_bin.kra
+Name2[$e]=animated_birds.kra
+Name3[$e]=Bench.kra
 
 [SelectedTags]
 kis_paintoppresets=Pixel Art

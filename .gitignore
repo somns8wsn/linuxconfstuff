@@ -17,6 +17,9 @@
 !owndwmbuild/**
 !owndmenubuild/**
 !background/**
+!.local/share/krita/input/**
+!.local/share/krita/preset_icons/**
+!.local/share/krita/workspaces/**
 !.moc/config
 !.vim/**
 !.config/rofi/**
