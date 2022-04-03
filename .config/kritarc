@@ -30,6 +30,7 @@ ColorManagement/UseSystemMonitorProfile=false
 ConvertToImageColorSpaceOnImport=false
 CreateBackupFile=true
 ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param name="alpha" type="internal">true</param>\n <param name="compression" type="internal">9</param>\n <param name="forceSRGB" type="internal">true</param>\n <param name="indexed" type="internal">false</param>\n <param name="interlaced" type="internal">false</param>\n <param name="saveAsHDR" type="internal">false</param>\n <param name="saveSRGBProfile" type="internal">false</param>\n <param name="storeAuthor" type="internal">false</param>\n <param name="storeMetaData" type="internal">false</param>\n <param name="transparencyFillcolor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB b="1" space="sRGB-elle-V2-g10.icc" g="1" r="1"/>\n</color>\n]]></param>\n</params>\n
+FetchNews=false
 FilterSelector/LastUsedFilter=noise
 GamutMasks.viewMode=0
 KineticScrollingEnabled=true
@@ -46,8 +47,8 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB g="1" b="1" space="sRGB-elle-V2-srgbtrc.icc" r="1"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB g="0" b="0" space="sRGB-elle-V2-srgbtrc.icc" r="0"/>\n</LastForeGroundColor>\n
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</LastBackGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</LastForeGroundColor>\n
 LastPreset=b)_Basic-1
 LineSmoothingDelayDistance=42
 LineSmoothingDistance=70
@@ -261,7 +262,7 @@ workingColorSpace=RGBA
 
 [File Dialogs]
 DontUseNativeFileDialog=true
-OpenDocument=/home/ws/Pics/Pixel
+OpenDocument=/home/ws/pics/Pixel
 SaveAs=/home/ws/Pics/DiplomProject
 
 [KisShortcutsDialog Settings]
@@ -651,26 +652,7 @@ xPosition=0
 yPosition=19
 
 [RecentFiles]
-File1[$e]=$HOME/Pics/DiplomProject/Bench.kra
-File10[$e]=$HOME/Pics/DiplomProject/stone_bin.kra
-File2[$e]=$HOME/Pics/Pixel/llawkO83.jpg
-File3[$e]=$HOME/Pics/Pixel/oij238201.jpg
-File4[$e]=$HOME/Pics/Pixel/photo_2021-06-11_03-30-12.jpg
-File5[$e]=$HOME/Pics/Pixel/photo_2021-06-21_20-08-50.jpg
-File6[$e]=$HOME/Pics/Pixel/photo_2021-08-06_14-53-54.jpg
-File7[$e]=$HOME/Pics/Pixel/photo_2021-08-16_19-58-16.jpg
-File8[$e]=$HOME/Pics/Pixel/photo_2021-08-18_12-18-12.jpg
-File9[$e]=$HOME/Pics/Pixel/photo_2021-09-13_17-59-14.jpg
-Name1[$e]=Bench.kra
-Name10[$e]=stone_bin.kra
-Name2[$e]=llawkO83.jpg
-Name3[$e]=oij238201.jpg
-Name4[$e]=photo_2021-06-11_03-30-12.jpg
-Name5[$e]=photo_2021-06-21_20-08-50.jpg
-Name6[$e]=photo_2021-08-06_14-53-54.jpg
-Name7[$e]=photo_2021-08-16_19-58-16.jpg
-Name8[$e]=photo_2021-08-18_12-18-12.jpg
-Name9[$e]=photo_2021-09-13_17-59-14.jpg
+maxRecentFileItems=100
 
 [SelectedTags]
 kis_paintoppresets=All
