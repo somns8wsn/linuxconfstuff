@@ -11,10 +11,14 @@ static const int showbar                 = 1;         /* 0 means no bar */
 static const int topbar                  = 1;         /* 0 means bottom bar */
 static const int user_bh                 = 0;         /* 0 default calculate, >= 1 dwm use user_bh as bar height */
 static const char *fonts[]               = { "Mononoki:size=11:antialiasing=true:autohint=true" };
-static const char col_1[]                = "#191919"; /* backgroud color of bar */ 
-static const char col_2[]                = "#041612"; /* border color unfocused windows */
-static const char col_3[]                = "#d7d7d7"; /* foreground */
-static const char col_4[]                = "#0e4f42"; /* border color focused windows and tags */
+static const char col_1[]                = "#1d2021"; /* backgroud color of bar */ 
+static const char col_2[]                = "#1d2021"; /* border color unfocused windows */
+static const char col_3[]                = "#ebdbb2"; /* foreground */
+static const char col_4[]                = "#2f4930"; /* border color focused windows and tags */
+/*static const char col_1[]                = "#191919"; [> backgroud color of bar <] */
+//static const char col_2[]                = "#041612"; [> border color unfocused windows <]
+//static const char col_3[]                = "#d7d7d7"; [> foreground <]
+/*static const char col_4[]                = "#0e4f42";*/
 static const char *colors[][3]           = {
 	              /* fg     bg     border */
 	[SchemeNorm] = { col_3, col_1, col_2 },
