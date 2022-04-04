@@ -5,5 +5,4 @@ picom --vsync --backend glx &
 nitrogen --restore &
 bash ~/.mouse_settings.sh
 kitty &
-slstatus &
-exec dwm
+qtile start

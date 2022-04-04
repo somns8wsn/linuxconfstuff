@@ -23,6 +23,7 @@
 !.moc/config
 !.vim/**
 !.config/rofi/**
+!.config/qtile/config.py
 !.config/cataclysm-dda/**
 !.config/htop/**
 !.config/kitty/**
