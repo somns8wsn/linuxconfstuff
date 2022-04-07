@@ -4279,7 +4279,7 @@ vout=any
 mux=any
 
 # Access output module (string)
-access_output=any
+access_output=udp
 
 # Hop limit (TTL) (integer)
 #ttl=-1

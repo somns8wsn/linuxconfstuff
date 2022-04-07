@@ -64,6 +64,7 @@
 (toolbox-wilber no)
 (show-help-button no)
 (user-manual-online yes)
+(layer-add-mask-type black)
 (fill-options
     (style solid)
     (antialias yes)

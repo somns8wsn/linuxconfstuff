@@ -4,6 +4,8 @@
     (icon-name "gimp-cursor")
     (name "Core Pointer")
     (tool-options "GimpCropOptions"
+        (aspect-denominator 962)
+        (aspect-numerator 1280)
         (fixed-rule-active yes)
         (tool "gimp-crop-tool")
         (delete-pixels yes))

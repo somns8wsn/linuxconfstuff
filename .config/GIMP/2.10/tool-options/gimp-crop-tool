@@ -1,5 +1,7 @@
 # GIMP gimp-crop-tool options
 
+(aspect-denominator 962)
+(aspect-numerator 1280)
 (fixed-rule-active yes)
 (delete-pixels yes)
 

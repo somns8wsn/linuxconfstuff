@@ -1,8 +1,8 @@
 #!/bin/bash
 myrepo="git@github.com:somns8wsn/"
 
-for i in vim wget vifm sudo locate curl alsa-utils nasm gcc xorg htop tree moc mpv sxiv zathura exa picom nitrogen obs-studio firefox-esr lxappearance lynx w3m python3 python3-pip qt5ct keepass2 qbittorrent remmina pcmanfm virt-manager fdisk mumble filezilla inkscape fish wireguard openssh gimp vlc 
-do apt-get install -yy $i 
+for i in vim wget vifm sudo locate curl alsa-utils nasm gcc xorg htop tree moc mpv sxiv zathura exa picom nitrogen obs-studio firefox-esr lxappearance lynx w3m python3 python3-pip qt5ct keepass2 qbittorrent remmina pcmanfm virt-manager fdisk mumble filezilla inkscape fish wireguard openssh gimp vlc
+do apt-get install -yy $i
 done
 
 for list in owndwmbuild ownstbuild owndmenubuild ownslstatusbuild
@@ -14,15 +14,7 @@ cd /home/$USER/owndwmbuild && make clean install && cd /home/$USER
 cd /home/$USER/owndmenubuild && make clean install && cd /home/$USER
 cd /home/$USER/ownslstatusbuild && make clean install && cd /home/$USER
 
-cp -r /home/$USER/ownconfstuff/*Fonts /usr/share/fonts && cp /home/$USER/ownconfstuff/.xinitrc /home/$USER
-
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
-
-printf "eval "$(starship init bash)"" >> /home/$USER/.bashrc
-
-printf "export PATH="\$PATH:/opt/Telegram"" >> /home/$USER/.profile
-printf "export PATH="\$PATH:/opt/Discord"" >> /home/$USER/.profile
-printf "export QT_QPA_PLATFORMTHEME="qt5ct"" >> /home/$USER/.profile
 
 printf "$USER      ALL=(ALL:ALL) ALL" >> /etc/sudoers
 
