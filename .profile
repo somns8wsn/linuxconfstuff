@@ -25,7 +25,5 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
-export PATH="$PATH:/opt/Telegram"
-export PATH="$PATH:/opt/Discord"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 . "$HOME/.cargo/env"

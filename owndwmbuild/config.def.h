@@ -11,7 +11,7 @@ static const int showbar                 = 1;         /* 0 means no bar */
 static const int topbar                  = 1;         /* 0 means bottom bar */
 static const int user_bh                 = 0;         /* 0 default calculate, >= 1 dwm use user_bh as bar height */
 static const char *fonts[]               = { "Mononoki:size=11:antialiasing=true:autohint=true" };
-static const char col_1[]                = "#1d2021"; /* backgroud color of bar */ 
+static const char col_1[]                = "#1d2021"; /* backgroud color of bar */
 static const char col_2[]                = "#1d2021"; /* border color unfocused windows */
 static const char col_3[]                = "#ebdbb2"; /* foreground */
 static const char col_4[]                = "#2f4930"; /* border color focused windows and tags */
@@ -83,12 +83,12 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             -1,          XK_Return, spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       -1,          XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       -1,          XK_b,      togglebar,      {0} },
-	
+
 	{ MODKEY,                       XK_s,        XK_f,      spawn,          CMD("firefox") },
-	{ MODKEY,                       XK_s,        XK_t,      spawn,          CMD("Telegram") },
-	{ MODKEY,                       XK_s,        XK_d,      spawn,          CMD("Discord") },
+	{ MODKEY,                       XK_s,        XK_t,      spawn,          CMD("telegram") },
+	{ MODKEY,                       XK_s,        XK_d,      spawn,          CMD("discord") },
         { MODKEY,                       XK_s,        XK_s,      spawn,          CMD("steam") },
-	
+
 	{ MODKEY,                       -1,          XK_Print,  spawn,          {.v = scrotfull } },
 	{ MODKEY|ControlMask,           -1,          XK_Print,  spawn,          {.v = scrotsel} },
 
