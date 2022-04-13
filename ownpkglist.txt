@@ -57,3 +57,5 @@ zenity
 zerotier-one
 zip
 exa
+s-tui
+stress

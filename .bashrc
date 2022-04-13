@@ -101,5 +101,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-eval "$(starship init bash)" 
+eval "$(starship init bash)"
 . "$HOME/.cargo/env"
