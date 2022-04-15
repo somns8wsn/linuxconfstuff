@@ -1,4 +1,3 @@
-anydesk
 apt
 arc-theme
 atom
