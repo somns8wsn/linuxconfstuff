@@ -3,7 +3,7 @@
 
 !ownpkglist.txt
 !.xinitrc
-!.xresources
+!.Xresources
 !.profile
 !.bashrc
 !.mouse_settings.sh
