@@ -6,8 +6,6 @@
 !.Xresources
 !.profile
 !.bashrc
-!.mouse_settings.sh
-!afterinstallscript
 !helpful_libs.txt
 !.bash_aliases
 !.vimrc
@@ -17,11 +15,9 @@
 !owndwmbuild/**
 !owndmenubuild/**
 !background/**
-!.local/share/krita/input/**
-!.local/share/krita/preset_icons/**
-!.local/share/krita/workspaces/**
 !.moc/config
 !.vim/**
+!scripts/**
 !.config/rofi/**
 !.config/MangoHud/**
 !.config/qtile/config.py
