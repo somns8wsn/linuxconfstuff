@@ -10,7 +10,8 @@ static const int showsystray             = 1;         /* 0 means no systray */
 static const int showbar                 = 1;         /* 0 means no bar */
 static const int topbar                  = 1;         /* 0 means bottom bar */
 static const int user_bh                 = 0;         /* 0 default calculate, >= 1 dwm use user_bh as bar height */
-static const char *fonts[]               = { "JetBrainsMono:size=11:antialiasing=true:autohint=true" };
+/*static const char *fonts[]               = { "JetBrainsMono:size=11:antialiasing=true:autohint=true" };*/
+static const char *fonts[]               = { "mononoki:size=11" };
 static const char col_1[]                = "#1d2021"; /* backgroud color of bar */
 static const char col_2[]                = "#1d2021"; /* border color unfocused windows */
 static const char col_3[]                = "#ebdbb2"; /* foreground */
