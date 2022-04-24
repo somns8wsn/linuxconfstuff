@@ -18,7 +18,7 @@
 !.moc/config
 !.vim/**
 !scripts/**
-!.local/share/fonts/**
+!.fonts/**
 !.config/rofi/**
 !.config/MangoHud/**
 !.config/qtile/config.py
