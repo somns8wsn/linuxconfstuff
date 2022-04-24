@@ -91,8 +91,8 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="JetBrainsMono SemiBold",
-    fontsize=None,
+    font="JetBrains Mono",
+    fontsize=15,
     padding=0,
     background='1d2021',
     foreground='ebdbb2',
@@ -109,7 +109,7 @@ screens = [
                     background='1d2021',
                     borderwidth=2,
                     disable_drag=True,
-                    font='JetBrainsMono SemiBold',
+                    font='JetBrains',
                     fontsize=14,
                     foreground='ebdbb2',
                     highlight_color=['1d2021', '928374'],
