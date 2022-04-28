@@ -1,8 +1,6 @@
 /**
 !.gitignore
 
-!wsn_std_pkgs.list
-!wsn_big_soft_pkgs.list
 !.xinitrc
 !.Xresources
 !.profile
