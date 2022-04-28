@@ -1,46 +1,50 @@
 from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
-from libqtile.utils import guess_terminal
+
 
 mod = "mod4"
-terminal = guess_terminal()
+terminal = "kitty"#guess_terminal()
 
 keys = [
-    # A list of available commands that can be bound to keys can be found
-    # at https://docs.qtile.org/en/latest/manual/config/lazy.html
-    # Switch between windows
-    Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),
-    Key([mod], "l", lazy.layout.right(), desc="Move focus to right"),
-    Key([mod], "j", lazy.layout.down(), desc="Move focus down"),
-    Key([mod], "k", lazy.layout.up(), desc="Move focus up"),
-    Key([mod], "space", lazy.layout.next(), desc="Move window focus to other window"),
+    Key([mod], "h", lazy.layout.left()),
+    Key([mod], "l", lazy.layout.right()),
+    Key([mod], "j", lazy.layout.down()),
+    Key([mod], "k", lazy.layout.up()),
+    Key([mod], "space", lazy.layout.next()),
 
-    Key([mod, "mod1"], "l", lazy.screen.next_group(), desc="Move next group"),
-    Key([mod, "mod1"], "h", lazy.screen.prev_group(), desc="Move prev group"),
+    Key([], "F8", lazy.spawn("amixer -D default -q set Capture toggle")),
 
-    Key([mod], "Right", lazy.screen.next_group(), desc="Move next group"),
-    Key([mod], "Left", lazy.screen.prev_group(), desc="Move prev group"),
+    Key([mod, "mod1"], "l", lazy.screen.next_group()),
+    Key([mod, "mod1"], "h", lazy.screen.prev_group()),
 
-    Key([mod, "shift"], "h", lazy.layout.shuffle_left(), desc="Move window to the left"),
-    Key([mod, "shift"], "l", lazy.layout.shuffle_right(), desc="Move window to the right"),
-    Key([mod, "shift"], "j", lazy.layout.shuffle_down(), desc="Move window down"),
-    Key([mod, "shift"], "k", lazy.layout.shuffle_up(), desc="Move window up"),
+    Key([mod], "Right", lazy.screen.next_group()),
+    Key([mod], "Left", lazy.screen.prev_group()),
 
-    Key([mod, "control"], "h", lazy.layout.grow_left(), desc="Grow window to the left"),
-    Key([mod, "control"], "l", lazy.layout.grow_right(), desc="Grow window to the right"),
-    Key([mod, "control"], "j", lazy.layout.grow_down(), desc="Grow window down"),
-    Key([mod, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),
-    Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
+    Key([mod, "shift"], "h", lazy.layout.shuffle_left()),
+    Key([mod, "shift"], "l", lazy.layout.shuffle_right()),
+    Key([mod, "shift"], "j", lazy.layout.shuffle_down()),
+    Key([mod, "shift"], "k", lazy.layout.shuffle_up()),
 
-    Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
-    Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
-    Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
-    Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
-    Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
-    Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
-    
-    Key([mod, "shift"], "Return", lazy.spawn("rofi -show run"), desc="Launch rofi"),
+    Key([mod, "control"], "h", lazy.layout.grow_left()),
+    Key([mod, "control"], "l", lazy.layout.grow_right()),
+    Key([mod, "control"], "j", lazy.layout.grow_down()),
+    Key([mod, "control"], "k", lazy.layout.grow_up()),
+    Key([mod], "n", lazy.layout.normalize()),
+
+    Key([mod], "s", lazy.layout.toggle_split()),
+    Key([mod], "Return", lazy.spawn(terminal)),
+    Key([mod], "Tab", lazy.next_layout()),
+    Key([mod, "shift"], "c", lazy.window.kill()),
+    Key([mod, "control"], "r", lazy.reload_config()),
+    Key([mod, "control"], "q", lazy.shutdown()),
+
+    Key([mod, "shift"], "Return", lazy.spawn("rofi -show run")),
+    Key([mod, "control"], "Print", lazy.spawn("scrot -fsq100")),
+    Key([mod], "Print", lazy.spawn("scrot -q100")),
+    Key([mod], "u", lazy.window.toggle_floating()),
+    Key([mod], "f", lazy.window.toggle_fullscreen()),
+    Key([mod, "shift"], "t", lazy.prev_screen()),
 ]
 
 groups = [Group(i) for i in "1234567890"]
@@ -54,16 +58,21 @@ for i in groups:
     )
 
 layouts = [
-    layout.Columns( border_focus_stack=["#2f4930", "#1d2021"],
-                    border_width=2,
-                    
+    layout.Columns( border_focus='8ec07c',
+                    border_focus_stack='d3869b',
+                    border_normal='30432a',
+                    border_normal_stack='422a31',
+                    border_width=1,
+                    margin=1,
+                    grow_amount=2,
+                    insert_position=1,
                     ),
     layout.Max(),
 ]
 
 widget_defaults = dict(
-    font="",
-    fontsize=15,
+    font='serif',
+    fontsize=14,
     padding=0,
     background='1d2021',
     foreground='ebdbb2',
@@ -77,12 +86,8 @@ screens = [
             [
                 widget.GroupBox(
                     active='ebdbb2',
-                    background='1d2021',
                     borderwidth=2,
                     disable_drag=True,
-                    font='JetBrains',
-                    fontsize=14,
-                    foreground='ebdbb2',
                     highlight_color=['1d2021', '928374'],
                     highlight_method='line',
                     inactive='504945',
@@ -98,11 +103,70 @@ screens = [
                     urgent_text='ebdbb2',
                     use_mouse_wheel=False,
                     ),
-                widget.CurrentLayout(),
-                widget.Prompt(),
-                #widget.WindowName(),
-                #widget.Chord(chords_colors={"launch": ("#ff0000", "#ffffff"),}, name_transform=lambda name: name.upper(),),
-                widget.Clock(format="%m-%d %a %I:%M %p"),
+
+                widget.Sep(padding=12, size_percent=45, foreground='a89984'),
+
+                widget.CurrentLayoutIcon(
+                    scale=0.6,
+                    ),
+
+                widget.Spacer(),
+
+                widget.Net(
+                    format='{down} ⮃{up}',
+                    prefix='k',
+                    update_interval=3,
+                    font='mono bold',
+                    fontsize=14,
+                    foreground='b8bb26',
+                    ),
+
+                widget.Sep(padding=80, size_percent=45, foreground='a89984'),
+
+                widget.DF(
+                    format='+{uf}{m}',
+                    partition='/home',
+                    visible_on_warn=False,
+                    font='mono bold',
+                    fontsize=14,
+                   foreground='fabd2f',
+                    ),
+
+                widget.Sep(padding=80, size_percent=45, foreground='a89984'),
+
+                widget.CPU(
+                    format='{load_percent}%',
+                    update_interval=3.0,
+                    font='mono bold',
+                    fontsize=14,
+                    foreground='83a598',
+                    ),
+
+                widget.Sep(padding=80, size_percent=45, foreground='a89984'),
+
+                widget.Memory(
+                    format='{MemUsed:.2f}{mm}',
+                    measure_mem='G',
+                    font='mono bold',
+                    fontsize=14,
+                    foreground='d3869b',
+                    ),
+
+                widget.Spacer(),
+
+                widget.Volume(
+                    padding=0,
+                    cardid=0,
+                    emoji=True,
+                    fontsize=16,
+                    step=0,
+                    channel='Capture',
+                    ),
+
+                widget.Sep(padding=12, size_percent=45, foreground='a89984'),
+
+                widget.Clock(format="%d %b(%a), %H:%M"),
+
                 widget.Systray(),
             ],
             24,
@@ -114,7 +178,6 @@ screens = [
 mouse = [
     Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
     Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
-    Click([mod], "Button2", lazy.window.bring_to_front()),
 ]
 
 dgroups_key_binder = None
@@ -123,15 +186,19 @@ follow_mouse_focus = True
 bring_front_click = False
 cursor_warp = False
 floating_layout = layout.Floating(
+    border_focus='cc241d',
+    border_mormal='440c09',
     float_rules=[
         # Run the utility of `xprop` to see the wm class and name of an X client.
         *layout.Floating.default_float_rules,
-        Match(wm_class="confirmreset"),  # gitk
-        Match(wm_class="makebranch"),  # gitk
-        Match(wm_class="maketag"),  # gitk
-        Match(wm_class="ssh-askpass"),  # ssh-askpass
-        Match(title="branchdialog"),  # gitk
-        Match(title="pinentry"),  # GPG key password entry
+        Match(wm_class="confirmreset"),
+        Match(wm_class="makebranch"),
+        Match(wm_class="maketag"),
+        Match(wm_class="ssh-askpass"),
+        Match(title="branchdialog"),
+        Match(title="pinentry"),
+        Match(wm_class="mumble"),
+        Match(wm_class="keepass2"),
     ]
 )
 auto_fullscreen = True
