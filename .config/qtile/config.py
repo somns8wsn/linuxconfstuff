@@ -84,6 +84,7 @@ screens = [
     Screen(
         top=bar.Bar(
             [
+                widget.Spacer(length=20),
                 widget.GroupBox(
                     active='ebdbb2',
                     borderwidth=2,
@@ -168,6 +169,7 @@ screens = [
                 widget.Clock(format="%d %b(%a), %H:%M"),
 
                 widget.Systray(),
+                widget.Spacer(length=20),
             ],
             24,
         ),
