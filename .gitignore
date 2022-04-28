@@ -1,12 +1,12 @@
 /**
 !.gitignore
 
-!ownpkglist.txt
+!wsn_std_pkgs.list
+!wsn_big_soft_pkgs.list
 !.xinitrc
 !.Xresources
 !.profile
 !.bashrc
-!helpful_libs.txt
 !.bash_aliases
 !.vimrc
 

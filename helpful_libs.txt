@@ -1,4 +1,0 @@
-libxinerama-dev
-libxft-dev
-libx11-dev
-xinput
