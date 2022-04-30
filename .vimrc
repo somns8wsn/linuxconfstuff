@@ -27,10 +27,15 @@ augroup MyColors
     autocmd ColorScheme * call MyHighlights()
 augroup END
 
-set relativenumber
 colorscheme gruvbox
 syntax on
-set background=dark
+
 let NERDTreeShowHidden=1
-let g:indentLine_char = '│'
-let g:indentLine_color_term = 237
+let g:indentLine_char='│'
+let g:indentLine_color_term=237
+
+set number
+set background=dark
+set tabstop=4
+set numberwidth=5
+set list lcs=tab:\│\ 
