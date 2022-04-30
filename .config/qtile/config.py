@@ -84,7 +84,9 @@ screens = [
     Screen(
         top=bar.Bar(
             [
+
                 widget.Spacer(length=40),
+
                 widget.GroupBox(
                     active='ebdbb2',
                     borderwidth=2,
@@ -105,7 +107,7 @@ screens = [
                     use_mouse_wheel=False,
                     ),
 
-                widget.Sep(padding=12, size_percent=45, foreground='a89984'),
+                widget.Spacer(length=10),
 
                 widget.CurrentLayoutIcon(
                     scale=0.6,
@@ -113,8 +115,16 @@ screens = [
 
                 widget.Spacer(),
 
+                widget.WindowName(
+                    max_chars=30,
+                    font='sans',
+                    foreground='928374',
+                    ),
+
+                widget.Spacer(),
+
                 widget.Net(
-                    format='{down} ⮃{up}',
+                    format='{total} ⮃',
                     prefix='k',
                     update_interval=3,
                     font='mono bold',
@@ -125,7 +135,7 @@ screens = [
                 widget.Sep(padding=80, size_percent=45, foreground='a89984'),
 
                 widget.DF(
-                    format='+{uf}{m}',
+                    format='+{uf}{m} 🖴',
                     partition='/home',
                     visible_on_warn=False,
                     font='mono bold',
@@ -136,7 +146,7 @@ screens = [
                 widget.Sep(padding=80, size_percent=45, foreground='a89984'),
 
                 widget.CPU(
-                    format='{load_percent}%',
+                    format='{load_percent}% 閭',
                     update_interval=3.0,
                     font='mono bold',
                     fontsize=14,
@@ -146,14 +156,19 @@ screens = [
                 widget.Sep(padding=80, size_percent=45, foreground='a89984'),
 
                 widget.Memory(
-                    format='{MemUsed:.2f}{mm}',
+                    format='{MemUsed:.2f}{mm} ',
                     measure_mem='G',
                     font='mono bold',
                     fontsize=14,
                     foreground='d3869b',
                     ),
 
-                widget.Spacer(),
+                widget.Spacer(length=200),
+
+                widget.TextBox(text='', fontsize=45, foreground='928374'),
+                widget.TextBox(text='', fontsize=45, foreground='cc241d'),
+
+                widget.Spacer(length=220),
 
                 widget.Volume(
                     padding=0,
@@ -164,11 +179,14 @@ screens = [
                     channel='Capture',
                     ),
 
-                widget.Sep(padding=12, size_percent=45, foreground='a89984'),
+                widget.Spacer(length=10),
 
                 widget.Clock(format="%d %b(%a), %H:%M"),
 
+                widget.Spacer(length=10),
+
                 widget.Systray(),
+
                 widget.Spacer(length=40),
             ],
             24,
