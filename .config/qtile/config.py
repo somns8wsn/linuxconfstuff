@@ -1,17 +1,40 @@
-from libqtile import bar, layout, widget
+from libqtile import bar, layout, widget, hook
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 
 
+def push_window(direction):
+    def callback(qtile):
+        x = qtile.groups.index(qtile.current_group)
+        group_l = qtile.groups[x - 1].name
+        group_r = qtile.groups[x + 1].name
+        current = qtile.current_window
+        last_name = qtile.groups[len(qtile.groups) - 2].name
+        first_name = qtile.groups[0].name
+
+
+        if direction == "left":
+            if current and x > 0:
+                current.togroup(group_l, switch_group = True)
+            else:
+                current.togroup(last_name, switch_group = True)
+
+        elif direction == "right":
+            if current and x < len(qtile.groups) - 2:
+                current.togroup(group_r, switch_group = True)
+            else:
+                current.togroup(first_name, switch_group = True)
+
+    return callback
+
 mod = "mod4"
-terminal = "kitty"#guess_terminal()
+terminal = "kitty"
 
 keys = [
     Key([mod], "h", lazy.layout.left()),
     Key([mod], "l", lazy.layout.right()),
     Key([mod], "j", lazy.layout.down()),
     Key([mod], "k", lazy.layout.up()),
-    Key([mod], "space", lazy.layout.next()),
 
     Key([], "F8", lazy.spawn("amixer -D default -q set Capture toggle")),
 
@@ -44,7 +67,8 @@ keys = [
     Key([mod], "Print", lazy.spawn("scrot -q100")),
     Key([mod], "u", lazy.window.toggle_floating()),
     Key([mod], "f", lazy.window.toggle_fullscreen()),
-    Key([mod, "shift"], "t", lazy.prev_screen()),
+    Key([mod, "shift"], "Left", lazy.function(push_window("left"))),
+    Key([mod, "shift"], "Right", lazy.function(push_window("right"))),
 ]
 
 groups = [Group(i) for i in "1234567890"]
@@ -52,8 +76,8 @@ groups = [Group(i) for i in "1234567890"]
 for i in groups:
     keys.extend(
         [
-            Key([mod], i.name, lazy.group[i.name].toscreen(), desc="Switch to group {}".format(i.name)),
-            Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True), desc="Switch to & move focused window to group {}".format(i.name)),
+            Key([mod], i.name, lazy.group[i.name].toscreen()),
+            Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True)),
         ]
     )
 
@@ -116,10 +140,10 @@ screens = [
                 widget.Spacer(),
 
                 widget.WindowName(
-                    max_chars=30,
-                    font='sans',
-                    foreground='928374',
-                    ),
+                   max_chars=30,
+                   font='sans',
+                   foreground='928374',
+                   ),
 
                 widget.Spacer(),
 
@@ -163,12 +187,12 @@ screens = [
                     foreground='d3869b',
                     ),
 
-                widget.Spacer(length=200),
+                widget.Sep(padding=80, size_percent=45, foreground='a89984'),
 
                 widget.TextBox(text='', fontsize=45, foreground='928374'),
                 widget.TextBox(text='', fontsize=45, foreground='cc241d'),
 
-                widget.Spacer(length=220),
+                widget.Spacer(),
 
                 widget.Volume(
                     padding=0,
@@ -189,10 +213,11 @@ screens = [
 
                 widget.Spacer(length=40),
             ],
-            24,
+            22,
         ),
     ),
 ]
+
 
 # Drag floating layouts.
 mouse = [
@@ -219,6 +244,7 @@ floating_layout = layout.Floating(
         Match(title="pinentry"),
         Match(wm_class="mumble"),
         Match(wm_class="keepass2"),
+        Match(title="Friends List")
     ]
 )
 auto_fullscreen = True
@@ -232,3 +258,17 @@ auto_minimize = True
 wl_input_rules = None
 
 wmname = "LG3D"
+
+@hook.subscribe.client_new
+def throw_to_group(client):
+    if client.name == "Mozilla Firefox":
+        client.togroup("2")
+
+    elif client.name == ("Discord"):
+        client.togroup("3")
+
+    elif client.name == "Telegram":
+        client.togroup("4")
+
+    elif client.name == "Steam":
+        client.togroup("5")
