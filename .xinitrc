@@ -1,4 +1,3 @@
-nitrogen --restore &
 kitty &
 xrdb ~/.Xresources &
 xset s off &

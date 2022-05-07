@@ -10,6 +10,7 @@ ffmpeg
 firefox-esr
 firmware-amd-graphics
 git
+grabc
 htop
 keepass2
 kitty
@@ -26,17 +27,16 @@ mumble
 mumble-server
 ncdu
 neofetch
-nitrogen
-passwd
+pass
 picom
 pulseaudio
 python3
 radeontop
 rofi
 rsync
+s-tui
 scrot
 stress
-s-tui
 sudo
 sxiv
 tree

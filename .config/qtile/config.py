@@ -215,6 +215,8 @@ screens = [
             ],
             22,
         ),
+        wallpaper="~/background/background.png",
+        wallpaper_mode="fill",
     ),
 ]
 
