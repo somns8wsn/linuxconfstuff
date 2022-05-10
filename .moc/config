@@ -245,7 +245,7 @@ Theme = nightly_theme
 # Should MOC try to autoload the default lyrics file for an audio?  (The
 # default lyrics file is a text file with the same file name as the audio
 # file name with any trailing "extension" removed.)
-#AutoLoadLyrics = yes
+AutoLoadLyrics = no
 
 # MOC directory (where pid file, socket and state files are stored).
 # You can use ~ at the beginning.
