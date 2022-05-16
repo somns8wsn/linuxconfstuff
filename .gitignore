@@ -19,6 +19,7 @@
 !.fonts/**
 !.config/rofi/**
 !.config/MangoHud/**
+!.config/mpv/**
 !.config/qtile/config.py
 !.config/cataclysm-dda/**
 !.config/htop/**

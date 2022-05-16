@@ -245,7 +245,10 @@ floating_layout = layout.Floating(
         Match(title="pinentry"),
         Match(wm_class="mumble"),
         Match(wm_class="keepass2"),
-        Match(title="Friends List")
+        Match(title="Friends List"),
+        Match(wm_class="Godot_Engine"),
+        Match(wm_class="transmission-gtk"),
+        Match(wm_class="pcmanfm"),
     ]
 )
 auto_fullscreen = True
