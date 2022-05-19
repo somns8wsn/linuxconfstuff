@@ -234,7 +234,7 @@ ShowFormat = yes
 #
 # Example:    Theme = laras_theme
 #
-Theme = nightly_theme
+Theme = wsn_theme
 
 # The theme used when running on an xterm.
 #
