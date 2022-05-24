@@ -31,7 +31,7 @@ ConvertToImageColorSpaceOnImport=false
 CreateBackupFile=true
 ExportConfiguration-ANIMATION_EXPORT=<!DOCTYPE params>\n<params>\n <param type="string" name="basename"><![CDATA[frame]]></param>\n <param type="string" name="custom_ffmpeg_options"><![CDATA[-crf 23 -preset medium -profile:v baseline -pix_fmt yuv420p]]></param>\n <param type="internal" name="delete_sequence">false</param>\n <param type="string" name="directory"><![CDATA[/home/ws/pics/DiplomProject]]></param>\n <param type="internal" name="encode_video">false</param>\n <param type="string" name="ffmpeg_path"><![CDATA[/usr/bin/..//bin/ffmpeg]]></param>\n <param type="string" name="filename"><![CDATA[./animated_birds.mp4]]></param>\n <param type="internal" name="first_frame">0</param>\n <param type="string" name="frame_export/ColorDepthID"><![CDATA[U8]]></param>\n <param type="string" name="frame_export/ColorModelID"><![CDATA[RGBA]]></param>\n <param type="internal" name="frame_export/ImageContainsTransparency">false</param>\n <param type="internal" name="frame_export/sRGB">true</param>\n <param type="string" name="frame_mimetype"><![CDATA[image/png]]></param>\n <param type="internal" name="framerate">10</param>\n <param type="internal" name="height">64</param>\n <param type="internal" name="include_audio">true</param>\n <param type="string" name="last_document_path"><![CDATA[/home/ws/pics/DiplomProject/animated_birds.gif]]></param>\n <param type="internal" name="last_frame">5</param>\n <param type="internal" name="only_unique_frames">false</param>\n <param type="internal" name="sequence_start">0</param>\n <param type="string" name="video_mimetype"><![CDATA[video/mp4]]></param>\n <param type="internal" name="width">128</param>\n</params>\n
 ExportConfiguration-image/jpeg=<!DOCTYPE params>\n<params>\n <param type="internal" name="baseline">true</param>\n <param type="internal" name="exif">false</param>\n <param type="string" name="filters"><![CDATA[]]></param>\n <param type="internal" name="forceSRGB">false</param>\n <param type="internal" name="iptc">false</param>\n <param type="internal" name="optimize">true</param>\n <param type="internal" name="progressive">false</param>\n <param type="internal" name="quality">100</param>\n <param type="internal" name="saveProfile">true</param>\n <param type="internal" name="smoothing">0</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="internal" name="subsampling">0</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB r="1" g="1" space="sRGB-elle-V2-g10.icc" b="1"/>\n</color>\n]]></param>\n <param type="internal" name="xmp">false</param>\n</params>\n
-ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param name="alpha" type="internal">true</param>\n <param name="compression" type="internal">9</param>\n <param name="forceSRGB" type="internal">true</param>\n <param name="indexed" type="internal">false</param>\n <param name="interlaced" type="internal">false</param>\n <param name="saveAsHDR" type="internal">false</param>\n <param name="saveSRGBProfile" type="internal">false</param>\n <param name="storeAuthor" type="internal">false</param>\n <param name="storeMetaData" type="internal">false</param>\n <param name="transparencyFillcolor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB b="1" space="sRGB-elle-V2-g10.icc" g="1" r="1"/>\n</color>\n]]></param>\n</params>\n
+ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param type="internal" name="alpha">true</param>\n <param type="internal" name="compression">9</param>\n <param type="internal" name="forceSRGB">true</param>\n <param type="internal" name="indexed">false</param>\n <param type="internal" name="interlaced">false</param>\n <param type="internal" name="saveAsHDR">false</param>\n <param type="internal" name="saveSRGBProfile">false</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB b="1" g="1" space="sRGB-elle-V2-g10.icc" r="1"/>\n</color>\n]]></param>\n</params>\n
 FetchNews=false
 FilterSelector/LastUsedFilter=levels
 GamutMasks.viewMode=0
@@ -49,8 +49,8 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB r="0" g="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB r="0.662745118141174" g="0.658823549747467" space="sRGB-elle-V2-srgbtrc.icc" b="0.650980412960052"/>\n</LastForeGroundColor>\n
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB b="0" g="0" space="sRGB-elle-V2-srgbtrc.icc" r="0"/>\n</LastBackGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB b="0.650980412960052" g="0.658823549747467" space="sRGB-elle-V2-srgbtrc.icc" r="0.662745118141174"/>\n</LastForeGroundColor>\n
 LastPreset=b)_Airbrush_Soft
 LineSmoothingDelayDistance=66
 LineSmoothingDistance=680.3
@@ -266,7 +266,7 @@ workingColorSpace=RGBA
 [File Dialogs]
 DontUseNativeFileDialog=true
 OpenDocument=/home/ws/Downloads
-SaveAs=/home/ws/Downloads
+SaveAs=/home/ws/pics/DiplomProject
 
 [FrameActionsDefaultValues]
 addNewFramesToTheRight=true
@@ -660,18 +660,12 @@ xPosition=0
 yPosition=19
 
 [RecentFiles]
-File1[$e]=$HOME/pics/DiplomProject/stone_bin.kra
-File2[$e]=$HOME/pics/DiplomProject/Bench.kra
-File3[$e]=$HOME/pics/DiplomProject/animated_birds.kra
-File4[$e]=$HOME/Downloads/1.jpg
-File5[$e]=$HOME/Downloads/2.jpg
-File6[$e]=$HOME/Downloads/3.jpg
-Name1[$e]=stone_bin.kra
-Name2[$e]=Bench.kra
-Name3[$e]=animated_birds.kra
-Name4[$e]=1.jpg
-Name5[$e]=2.jpg
-Name6[$e]=3.jpg
+File1[$e]=$HOME/pics/DiplomProject/Bench.kra
+File2[$e]=$HOME/pics/DiplomProject/animated_birds.kra
+File3[$e]=$HOME/pics/DiplomProject/stone_bin.kra
+Name1[$e]=Bench.kra
+Name2[$e]=animated_birds.kra
+Name3[$e]=stone_bin.kra
 
 [SelectedTags]
 kis_paintoppresets=All

@@ -234,7 +234,7 @@ bring_front_click = False
 cursor_warp = False
 floating_layout = layout.Floating(
     border_focus='cc241d',
-    border_mormal='440c09',
+    border_normal='440c09',
     float_rules=[
         *layout.Floating.default_float_rules,
         Match(wm_class="confirmreset"),
@@ -272,3 +272,6 @@ def throw_to_group(client):
 
     elif client.name == "Steam":
         client.togroup("5")
+    #elif client.name == "Godot":
+        #client.togroup("5")
+        #client.toggle_fullscreen()
