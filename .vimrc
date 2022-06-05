@@ -19,7 +19,7 @@ augroup END
 
 "SIMPLE AUTOCMD'S TOP=====
 autocmd VimEnter * normal! zR 
-autocmd VimEnter .py set tabstop=4
+autocmd VimEnter *.py,*.gd set tabstop=4
 "SIMPLE AUTOCMD'S BOTTOM=====
 
 if v:progname =~? "evim"

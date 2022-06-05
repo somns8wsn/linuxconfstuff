@@ -103,6 +103,6 @@ if ! shopt -oq posix; then
 fi
 eval "$(starship init bash)"
 
-export PASSWORD_STORE_CLIP_TIME=20
+export PASSWORD_STORE_CLIP_TIME=8
 export PASSWORD_STORE_GENERATED_LENGTH=25
 export PASSWORD_STORE_CHARACTER_SET="1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM\-\_\?\+\="
