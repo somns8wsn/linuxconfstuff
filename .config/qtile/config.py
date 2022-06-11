@@ -63,7 +63,7 @@ keys = [
     Key([mod, "control"], "q", lazy.shutdown()),
 
     Key([mod, "shift"], "Return", lazy.spawn("rofi -show run")),
-    Key([mod, "control"], "Print", lazy.spawn("scrot -fsq100")),
+    Key([mod, "control"], "Print", lazy.spawn("scrot -fspq100 -e 'mv $f ~/Downloads/diplom_pics/' ")),
     Key([mod], "Print", lazy.spawn("scrot -q100")),
     Key([mod], "u", lazy.window.toggle_floating()),
     Key([mod], "f", lazy.window.toggle_fullscreen()),
